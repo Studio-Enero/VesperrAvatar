@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="VESPERR">
+  <title>VESPERR</title>
+  <defs>
+    <linearGradient id="vesperrMark" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <path d="M12.00,3.80 L13.84,9.47 L19.80,9.47 L14.98,12.97 L16.82,18.63 L12.00,15.13 L7.18,18.63 L9.02,12.97 L4.20,9.47 L10.16,9.47 Z"
+        fill="none"
+        stroke="url(#vesperrMark)"
+        stroke-width="1.05"
+        stroke-linejoin="round"
+        stroke-linecap="round"/>
+</svg>

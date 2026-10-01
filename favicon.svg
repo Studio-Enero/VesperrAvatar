@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="VESPERR">
+  <title>VESPERR</title>
+  <!-- Filled, and a fatter pentagram than logo.svg: a hairline disappears at
+       favicon sizes and a slim star reads as a smudge. Exact geometry. -->
+  <path d="M12.00,3.10 L14.35,8.76 L20.46,9.25 L15.81,13.24 L17.23,19.20 L12.00,16.00 L6.77,19.20 L8.19,13.24 L3.54,9.25 L9.65,8.76 Z" fill="#38bdf8"/>
+</svg>

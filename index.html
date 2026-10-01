@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VESPERR — Face of AI for Your Digital Workforce</title>
+<meta name="description" content="Real-time interactive AI avatars and digital humans. Custom knowledge, natural speech, lip-sync and true-to-life movement, deployed on premises so your data never leaves your environment." />
+<meta property="og:title" content="VESPERR — Face of AI for Your Digital Workforce" />
+<meta property="og:description" content="Real-time interactive AI avatars and digital humans. Custom knowledge, natural speech, lip-sync and true-to-life movement, deployed on premises." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#06080d" />
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__mark" href="#top">
+    <span class="nav__glyph" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12.00,3.80 L13.84,9.47 L19.80,9.47 L14.98,12.97 L16.82,18.63 L12.00,15.13 L7.18,18.63 L9.02,12.97 L4.20,9.47 L10.16,9.47 Z"
+              stroke="currentColor" stroke-width="1.05" stroke-linejoin="round" stroke-linecap="round" />
+      </svg>
+    </span>
+    <span class="nav__word">VESPERR</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#products">Products</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#capabilities">Capabilities</a>
+    <a href="#security">On-Prem</a>
+  </nav>
+  <a class="nav__cta" href="#engage">Get started</a>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="eyebrow" data-r>
+        <span class="pulse" aria-hidden="true"></span>
+        Real-time · On premises
+      </p>
+
+      <h1 class="hero__title" data-r>
+        The face of<br />
+        your <em>digital</em><br />
+        workforce.
+      </h1>
+
+      <p class="hero__lede" data-r>
+        A digital human that speaks, listens and moves. Trained on your own
+        knowledge, speaking with its own voice, gesturing while it answers —
+        and deployed inside your environment, so nothing you hold sensitive
+        ever leaves it.
+      </p>
+
+      <div class="hero__actions" data-r>
+        <a class="btn btn--solid" href="#engage">Get started</a>
+        <a class="btn btn--ghost" href="#products">See the platform</a>
+      </div>
+
+      <dl class="specstrip" data-r>
+        <div><dt>Latency</dt><dd>Real-time</dd></div>
+        <div><dt>Deployment</dt><dd>On premises</dd></div>
+        <div><dt>Knowledge</dt><dd>Yours, retrievable</dd></div>
+      </dl>
+    </div>
+
+    <!-- Hero slider. Drop your files into website/images/ — see its README.
+         Slides are declared in script.js so markup and data stay together. -->
+    <div class="hero__media" data-r>
+      <figure class="slider">
+        <div class="slider__frame">
+          <ul class="slider__track" id="track"></ul>
+          <button class="slider__nav slider__nav--prev" type="button" data-dir="-1" aria-label="Previous image" aria-controls="track">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 L8 12 L15 19"/></svg>
+          </button>
+          <button class="slider__nav slider__nav--next" type="button" data-dir="1" aria-label="Next image" aria-controls="track">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 L16 12 L9 19"/></svg>
+          </button>
+        </div>
+
+        <!-- Caption sits BELOW the image in normal flow. Nothing floats over it. -->
+        <figcaption class="slider__bar">
+          <p class="slider__cap" id="cap"></p>
+          <p class="slider__count"><span id="idx">01</span><span class="slider__slash">/</span><span id="tot">01</span></p>
+        </figcaption>
+
+        <div class="slider__dots" id="dots" role="tablist" aria-label="Choose image"></div>
+      </figure>
+
+      <!-- The model's real output shape, in normal flow beneath the slider. -->
+      <div class="readout glass">
+        <span class="readout__label">gesture output</span>
+        <p class="readout__cmd"><span id="gesture" class="readout__token">wave</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="readout__said" id="saida">&ldquo;Good evening. The lounge is on four, just past the lift.&rdquo;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MANIFESTO ================= -->
+  <section class="manifesto">
+    <p class="manifesto__text" data-r>
+      Most &ldquo;virtual agents&rdquo; are a text box with a face pasted on.
+      The face does not matter — it is the part nobody looks at twice. What
+      matters is that it <em>knows your business</em>, answers in your voice, and
+      occupies a room convincingly enough that nobody stops to ask whether it is
+      real.
+    </p>
+  </section>
+
+  <!-- ================= PRODUCTS ================= -->
+  <section class="section" id="products">
+    <header class="section__head" data-r>
+      <p class="eyebrow">01 — Products</p>
+      <h2 class="section__title">One platform, three ways to meet an audience.</h2>
+      <p class="section__lede">Every choice stays in your hands — visual design, voice, scripts and logic.</p>
+    </header>
+
+    <div class="split" data-r>
+      <article class="split__card glass">
+        <h3>VESPERR Studio</h3>
+        <p>Build and launch your avatars directly. From visual design to voice, scripts and logic, the whole build is self-service — a digital human goes from idea to live across your screens and venues without a hand-off to an agency.</p>
+      </article>
+      <article class="split__card glass">
+        <h3>VESPERR Avatars</h3>
+        <p>A humanlike presence in your digital space. Expressive, real-time avatars built to speak, move and connect — expressive enough that your message lands rather than being read.</p>
+      </article>
+      <article class="split__card glass">
+        <h3>VESPERR Holograms</h3>
+        <p>Go beyond the screen. Life-sized holographic presence that gives an audience something to walk toward, in venues where an avatar on a monitor is simply not enough.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= SOLUTIONS ================= -->
+  <section class="section section--alt" id="solutions">
+    <header class="section__head" data-r>
+      <p class="eyebrow">02 — Solutions</p>
+      <h2 class="section__title">Adaptive minds, infinite roles.</h2>
+      <p class="section__lede">The same platform, pointed at a specific job. Each one is a digital human trained on the protocols and language of that role.</p>
+    </header>
+
+    <ul class="index" data-r>
+      <li class="index__row"><span class="index__n">01</span><h3 class="index__t">AI Concierge</h3><p class="index__d">A smart host for the front desk that welcomes, informs and directs without missing a beat. Made for high standards, smooth arrivals and memorable stays.</p></li>
+      <li class="index__row"><span class="index__n">02</span><h3 class="index__t">AI Avatars for Events</h3><p class="index__d">Full-body avatars that handle FAQs, explain products and hold the floor, so no visitor walks past without stopping.</p></li>
+      <li class="index__row"><span class="index__n">03</span><h3 class="index__t">AI Doctor</h3><p class="index__d">First-line guidance through a trusted digital presence, trained on medical protocols and patient dialogue. Ready to inform, reassure and direct — day or night.</p></li>
+      <li class="index__row"><span class="index__n">04</span><h3 class="index__t">AI Banker</h3><p class="index__d">Every client interaction starts with a digital expert trained to explain, assist and handle finance-related questions. Clarity, accuracy, nonstop availability.</p></li>
+      <li class="index__row"><span class="index__n">05</span><h3 class="index__t">AI Shopping Assistant</h3><p class="index__d">An assistant that speaks the language of your products and promotions, shaping retail experiences that turn browsers into confident buyers.</p></li>
+      <li class="index__row"><span class="index__n">06</span><h3 class="index__t">AI Historical Figures</h3><p class="index__d">Historical characters brought to life for museums, exhibitions and heritage experiences — interactive avatars and holograms of people who cannot be there.</p></li>
+    </ul>
+  </section>
+
+  <!-- ================= CAPABILITIES ================= -->
+  <section class="section" id="capabilities">
+    <header class="section__head" data-r>
+      <p class="eyebrow">03 — Capabilities</p>
+      <h2 class="section__title">What makes a figure read as a person.</h2>
+    </header>
+
+    <ol class="chain" data-r>
+      <li class="chain__step glass"><span class="chain__n">01</span><h3>Custom knowledge</h3><p>Point it at your own material and it answers from that, not from the open internet. Change a price and it changes that afternoon.</p></li>
+      <li class="chain__step glass"><span class="chain__n">02</span><h3>Real-time responses</h3><p>No scripted branch tree. The reply is generated against what it actually retrieved, so an unusual question gets a real answer rather than a deflection.</p></li>
+      <li class="chain__step glass"><span class="chain__n">03</span><h3>AI personality</h3><p>A persona you define — name, tone, boundaries — so the same platform greets for a hotel at nine and a members&rsquo; club at midnight.</p></li>
+      <li class="chain__step glass"><span class="chain__n">04</span><h3>Natural speech</h3><p>Synthesis tuned per deployment, with phoneme timing so the mouth keeps pace with the words rather than chasing them.</p></li>
+      <li class="chain__step glass"><span class="chain__n">05</span><h3>True-to-life movement</h3><p>The model returns body language alongside its sentence. Each verb resolves to a clip in that avatar&rsquo;s own motion library, so the figure is never standing still while it talks.</p></li>
+      <li class="chain__step glass"><span class="chain__n">06</span><h3>AI-powered back end</h3><p>Bring your own model, hosted where you choose. The avatar is the face; the intelligence behind it is yours to run.</p></li>
+    </ol>
+  </section>
+
+  <!-- ================= SECURITY ================= -->
+  <section class="section section--alt" id="security">
+    <header class="section__head" data-r>
+      <p class="eyebrow">04 — Deployment</p>
+      <h2 class="section__title">Security first. On premises.</h2>
+      <p class="section__lede">Your guests say room numbers, names and reasons for travelling. That conversation should never become someone else&rsquo;s training data.</p>
+    </header>
+
+    <div class="table" data-r>
+      <div class="table__row table__row--head"><span>Concern</span><span>How it is handled</span></div>
+      <div class="table__row"><span>Data residency</span><span>On-premises deployment keeps all sensitive data strictly within your environment boundaries</span></div>
+      <div class="table__row"><span>Conversations</span><span>Processed in place; no third-party processor is required to make it work</span></div>
+      <div class="table__row"><span>Your knowledge</span><span>Plain documents you own, indexed locally and exportable at any time</span></div>
+      <div class="table__row"><span>Standards</span><span>Built to comply with your privacy and security requirements</span></div>
+      <div class="table__row"><span>Updates</span><span>Avatars stay aligned with your evolving needs as features and knowledge change</span></div>
+    </div>
+  </section>
+
+  <!-- ================= ENGAGE ================= -->
+  <section class="engage" id="engage">
+    <p class="eyebrow" data-r>05 — Next</p>
+    <h2 class="engage__title" data-r>Bring your digital human to life.</h2>
+    <p class="engage__lede" data-r>Create your own digital human and launch it live across screens and venues with VESPERR Studio.</p>
+    <div class="engage__actions" data-r>
+      <a class="btn btn--solid" href="mailto:hello@example.com">Get started</a>
+      <a class="btn btn--ghost" href="#products">Explore products</a>
+    </div>
+    <p class="engage__note" data-r>Replace the address above with your own before publishing.</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span>VESPERR</span>
+  <span class="foot__dot" aria-hidden="true">·</span>
+  <span>Face of AI for your digital workforce</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
